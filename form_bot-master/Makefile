@@ -39,4 +39,6 @@ endpoint-api:
 run core_api:
 	python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --endpoints endpoints.yml
 	
+load_stories_from_url:
+	python -m rasa_core.train -d domain.yml --url http://localhost:5000/ -o models/dialogue --epochs 300
 	

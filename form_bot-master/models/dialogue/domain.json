@@ -1,0 +1,33 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_basf",
+    "intent_chitchat",
+    "intent_deny",
+    "intent_greet",
+    "intent_inform",
+    "intent_stop",
+    "intent_thankyou",
+    "entity_crop",
+    "entity_product",
+    "entity_PERSON",
+    "entity_GPE",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_utter_slots_values",
+    "prev_utter_chitchat",
+    "prev_utter_noworries",
+    "prev_utter_ask_continue",
+    "prev_utter_ask_crop",
+    "prev_utter_ask_product",
+    "prev_utter_greet",
+    "prev_utter_wrong_cuisine",
+    "prev_utter_default",
+    "prev_action_slot_reset",
+    "prev_utter_submit",
+    "prev_crop_form",
+    "active_form_crop_form"
+  ]
+}

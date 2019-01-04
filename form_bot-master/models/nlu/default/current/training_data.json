@@ -1,0 +1,759 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "right on"
+      },
+      {
+        "intent": "affirm",
+        "text": "i'd love that"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "im looking at sonnenblume today"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "can i use aqua stomp for my crops"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "aqua stomp",
+            "entity": "product"
+          },
+          {
+            "start": 26,
+            "end": 37,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "how to use aqua stomp for sonnenblume"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have sonnenblume"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "what is the distance for use of aqua stomp"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "cantus gold",
+            "entity": "product"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "can i use cantus gold with sonnenblume"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "cantus gold",
+            "entity": "product"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "artichoke",
+            "entity": "crop"
+          }
+        ],
+        "text": "i want the distance of use for cantus gold for artichoke"
+      },
+      {
+        "intent": "basf",
+        "text": "what is the usage distance for agriculture products?"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "uh im looking for cantus gold"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have winterraps crop"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "aqua stomp",
+            "entity": "product"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "i want to use aqua stomp with winterraps"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "artichoke",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have artichoke"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "i'm looking at sonnenblume"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "i want information on cantus gold"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "i have aqua stomp"
+      },
+      {
+        "intent": "basf",
+        "text": "tell me about basf"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to know about aqua stomp"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "aqua stomp",
+            "entity": "product"
+          },
+          {
+            "start": 42,
+            "end": 51,
+            "value": "artichoke",
+            "entity": "crop"
+          }
+        ],
+        "text": "i want to know how to use aqua stomp with artichoke"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have winterraps crop"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "hi i want to know about aqua stomp"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "how to use cantus gold"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "how to use aqua stomp"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "how to use cantus gold?"
+      },
+      {
+        "intent": "basf",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "how to use aqua stomp?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to get to know your owner"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know the company which designed you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How is the weather today?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What's the weather like?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "How is the weather?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "What is the weather at your place?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "Do you have good weather?"
+      },
+      {
+        "intent": "chitchat",
+        "text": "who made you?"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "please don't"
+      },
+      {
+        "intent": "deny",
+        "text": "no i don't want to"
+      },
+      {
+        "intent": "deny",
+        "text": "please stop"
+      },
+      {
+        "intent": "deny",
+        "text": "not at all"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi my name is aadil"
+      },
+      {
+        "intent": "greet",
+        "text": "hi i'm michael"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello i'm michael"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "my crop is winterraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "i think it's cantus gold"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "aqua stomp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "artichoke",
+            "entity": "crop"
+          }
+        ],
+        "text": "it is artichoke"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "sonnenblume"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "aqua stomp",
+            "entity": "product"
+          }
+        ],
+        "text": "aqua stomp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "winterraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "cantus gold"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "i'm using cantus gold"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "winterraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "artichoke",
+            "entity": "crop"
+          }
+        ],
+        "text": "artichoke"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "cantus gold"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "sonnenblume"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "winterraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "sonnenblume"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have sonnenblume crop"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "cantus gold"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "sonenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "sonenblume"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sonnenblume",
+            "entity": "crop"
+          }
+        ],
+        "text": "sonnenblume"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "winteraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "i have winteraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "winterraps",
+            "entity": "crop"
+          }
+        ],
+        "text": "winterraps"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "cantus gold",
+            "entity": "product"
+          }
+        ],
+        "text": "cantus gold"
+      },
+      {
+        "intent": "stop",
+        "text": "ok then you cant help me"
+      },
+      {
+        "intent": "stop",
+        "text": "that was shit, you're not helping"
+      },
+      {
+        "intent": "stop",
+        "text": "please stop"
+      },
+      {
+        "intent": "stop",
+        "text": "you aren't able to help me!"
+      },
+      {
+        "intent": "stop",
+        "text": "stop please"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

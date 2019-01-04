@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/adil_3.6/form_bot-master/models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/adil_3.6/form_bot-master/models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"

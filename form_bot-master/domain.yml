@@ -1,0 +1,61 @@
+%YAML 1.1
+---
+actions:
+- utter_slots_values
+- utter_chitchat
+- utter_noworries
+- utter_ask_continue
+- utter_ask_crop
+- utter_ask_product
+- utter_greet
+- utter_wrong_cuisine
+- utter_default
+- action_slot_reset
+- utter_submit
+entities:
+- crop
+- product
+- PERSON
+- GPE
+forms:
+- crop_form
+intents:
+- affirm
+- chitchat:
+    use_entities: false
+- inform
+- basf
+- stop
+- thankyou
+- greet
+- deny
+slots:
+  crop:
+    auto_fill: false
+    type: unfeaturized
+  product:
+    auto_fill: false
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+templates:
+  utter_ask_continue:
+  - text: do you want to continue?
+  utter_ask_crop:
+  - text: which crop?
+  utter_ask_product:
+  - text: what product are you using?
+  utter_chitchat:
+  - text: chitchat
+  utter_default:
+  - text: sorry, I didn't understand you, please try input something else
+  utter_greet:
+  - text: hi there i'm BASF. How can I help you?
+  utter_noworries:
+  - text: you are welcome :)
+  utter_slots_values:
+  - text: "got slots:\n - PRODUCT: {product}\n - CROP: {crop}\n"
+  utter_submit:
+  - text: ok great!
+  utter_wrong_cuisine:
+  - text: please check the crop or product name..

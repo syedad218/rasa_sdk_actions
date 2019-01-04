@@ -32,3 +32,11 @@ visualize:
 
 train-nlu:
 	python -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu_data.md -o models --project nlu --verbose
+
+endpoint-api:
+	curl -XPOST http://localhost:5005/conversations/default/respond -d '{"query":"hi"}' | python -mjson.tool
+	
+run core_api:
+	python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --endpoints endpoints.yml
+	
+	
